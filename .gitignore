@@ -112,3 +112,6 @@ test/
 !requirements.txt
 !urls.txt
 !urls_places.txt
+
+firebase.json
+/events
