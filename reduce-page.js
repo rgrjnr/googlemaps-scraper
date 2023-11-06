@@ -1,4 +1,4 @@
-function removeAttributesExceptSrcHrefAlt(element) {
+function removeAttributesExceptSrcHrefAlt(element, justText = false) {
   const attributes = element.attributes;
   for (let i = attributes.length - 1; i >= 0; i--) {
     const attrName = attributes[i].name;
